@@ -24,4 +24,8 @@ alias gci='git commit'
 alias gm='git merge --no-ff --no-edit'
 
 
+alias pr='powder restart'
+alias ps='powder start'
+
+
 
