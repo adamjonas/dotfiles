@@ -24,17 +24,19 @@ alias gst='git status'
 alias gci='git commit'
 alias gm='git merge --no-ff --no-edit'
 alias gr='git rebase'
+alias grc='git rebase --continue'
+alias gra='git rebase --abort'
 
-alias add='git add .'
+alias add='git add --all'
+alias amend='git commit --amend -am'
+alias amend_last='git commit --amend -C HEAD'
 
-alias ci='commit'
-alias br='branch'
+# alias ci='commit'
+# alias br='branch'
 alias co='checkout'
 alias merge='merge --no-ff --no-edit'
 
 alias pr='powder restart'
+alias po='powder open'
 alias p='powder'
-
-
-
 
